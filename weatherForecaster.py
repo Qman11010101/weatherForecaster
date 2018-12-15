@@ -28,7 +28,7 @@ else:
         curweather = "雨"
 
 print("天候:" + curweather)
-print("気温:" + str(data["currently"]["temperature"]) + "°C")
+print("気温:" + str(data["currently"]["temperature"]) + "℃")
 print("湿度:" + str(int((data["currently"]["humidity"]) * 100)) + "%")
 print("降水確率:" + str(int((data["currently"]["precipProbability"]) * 100)) + "%")
 print("気圧:" + str(int(data["currently"]["pressure"])) + "hPa")
